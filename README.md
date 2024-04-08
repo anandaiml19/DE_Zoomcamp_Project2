@@ -4,7 +4,7 @@ The Propject deals with the development of Extract,Transform and Load (ETL) Pipe
 The architecture diagram for the entire project is shown in below figure
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p1.png" /></a></p>
 
-The sink system used in thr project is the container developed in Azure storage. The container is then mounted in to the Azure Databricks and then the Pyspark is used to perform different transformation on the data. The transformed data is aggregated and sent in to azure blob storage.
+From the Bombay Stock Exchange (BSE) website were used to pick 50 stock list.The BSE libraray is used to fetch the API of 50 stock data obtained previously from BSE website.
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p2.png" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/Databricks1.jpg" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p3.png" /></a></p>
