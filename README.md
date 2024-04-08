@@ -1,7 +1,7 @@
 # Stock Data API ETL Pipeline using Azure Cloud Stack
 ### __About Project👨‍💻__ 
 The Propject deals with the development of Extract,Transform and Load (ETL) Pipeline of indian Stock data (BSE) API using Azure cloud stack.The stock data API available is moved in to databricks cloud platform file storage system and then Pyspark and databricks is employed for data transformation. The transformed data is moved in to Azure blob storage and then the Azure data Factory orchestration tool is used to copy the data from blob storage in to Azure SQL database. Finally the data from Azure SQL DB is accessed through POWER BI for Analytics and dashboarding.
-the architecture diagram for the entire project is shown in below figure
+The architecture diagram for the entire project is shown in below figure
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p1.png" /></a></p>
 
 The sink system used in thr project is the container developed in Azure storage. The container is then mounted in to the Azure Databricks and then the Pyspark is used to perform different transformation on the data. The transformed data is aggregated and sent in to azure blob storage.
