@@ -8,12 +8,12 @@ From the Bombay Stock Exchange (BSE) website were used to pick 50 stock list.The
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p2.png" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/Databricks1.jpg" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p3.png" /></a></p>
-Finally the data is moved from the blob container in to Microsoft Power BI to get the Analytics details above the data. The dashboard is developed which gives the insights on total pizza sold,total order, Total sales,Filters on Month,day and order time. 
+The data fetched is moved in to the file storage system of databricks clound platform, from which the data transformation is carried out with pyspark and databricks. 
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p4.png" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p5.png" /></a></p>
-The sum of order dales and total orders with Month name, distribution of pizza size with pizza sales, distribution of pizza sales with pizza category. the details of orders with day name and sum of the total pizza sales with pizza name.
+The transformed is intially moved in to azure blob storage system, from which the Azure data factory tool is used to copy the data from the blob storage in to the Azure SQL database system.
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p6.png" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p7.png" /></a></p>
-The project can help to make business decisions based on the insights gained from dashboard and data.
+The data from the Azure SQL database is fetched by power BI and then the analytical study is performed and then a dashboard is developed to generate the insights..
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p8.png" /></a></p>
 
