@@ -6,7 +6,7 @@ The architecture diagram for the entire project is shown in below figure
 
 The sink system used in thr project is the container developed in Azure storage. The container is then mounted in to the Azure Databricks and then the Pyspark is used to perform different transformation on the data. The transformed data is aggregated and sent in to azure blob storage.
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p2.png" /></a></p>
-<p  align="center"><img width="80%" src="<p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p2.png" /></a></p>" /></a></p>
+<p  align="center"><img width="80%" src="<p  align="center"><img width="80%" src="" /></a></p>" /></a></p>
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p3.png" /></a></p>
 Finally the data is moved from the blob container in to Microsoft Power BI to get the Analytics details above the data. The dashboard is developed which gives the insights on total pizza sold,total order, Total sales,Filters on Month,day and order time. 
 <p  align="center"><img width="80%" src="https://github.com/anandaiml19/DE_Zoomcamp_Project2/blob/main/p4.png" /></a></p>
